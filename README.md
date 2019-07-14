@@ -1,10 +1,12 @@
 # pdf_scrapper
 
 python3 pdf_scrapper.py 
+
 usage: pdf_scrapper.py [-h] url
 pdf_scrapper.py: error: the following arguments are required: url
 
 python3 pdf_scrapper.py -h
+
 usage: pdf_scrapper.py [-h] url
 
 positional arguments:
