@@ -14,11 +14,11 @@ if __name__ == '__main__':
         cw = CrawlHelper()  
         links = cw.get_pdf_links(url)        
         print("Total download links found "+ str(len(links)))
-        start = timer()
+        #start = timer()
         for link in links:
             if link is not None:
                 cw.download_pdf(link)
-        print(f"Elapsed Time: {timer() - start}")    
+        #print(f"Elapsed Time: {timer() - start}")    
             
     except KeyboardInterrupt:
         print("application stopped")
